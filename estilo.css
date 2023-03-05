@@ -276,7 +276,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 75%;}
 }
 .skills .skill .javascript{
     width: 0%;
@@ -293,25 +293,25 @@ html{
 }
 @keyframes reactjs {
     0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+.skills .skill .angular{
+    width: 0%;
+    animation: 2s nodejs forwards;
+}
+@keyframes angular {
+    0%{width: 0%;}
     100%{width: 90%;}
 }
 
 .skills .skill .nodejs{
     width: 0%;
-    animation: 2s nodejs forwards;
+    animation: 2s angular forwards;
 }
 @keyframes nodejs {
     0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-.skills .skill .angular{
-    width: 0%;
-    animation: 2s angular forwards;
-}
-@keyframes angular {
-    0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .comunicacion{
@@ -320,7 +320,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .trabajo{
